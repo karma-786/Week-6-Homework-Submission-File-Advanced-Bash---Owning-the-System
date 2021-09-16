@@ -47,13 +47,13 @@ Complete the following steps to set up your Vagrant local machine:
 
     - `cd $HOME/Documents/Cybersecurity-Bootcamp/Unit6-Homework`
 
-        ![Make Unit 6 Homework Directory](./Make_HW_Dir.png)
+        ![Make Unit 6 Homework Directory](/Images/Make_HW_Dir.png)
 
    - Then use Windows File Explorer or MacOS Finder to move the Vagrantfile to the new directory OR use the following `curl` command within the newly created homework directory to download the Vagrantfile:
     
     - `curl -L https://tinyurl.com/unit-6-hw-vagrantfile -o Vagrantfile`
 
-        ![curl Vagrantfile](./Curl_Vagrantfile.png)
+        ![curl Vagrantfile](/Images/Curl_Vagrantfile.png)
 
 5. With your terminal/Git Bash still working out of the newly created homework directory, launch the lab by running `vagrant up`. Leave this terminal window open.
 
@@ -67,11 +67,11 @@ Complete the following steps to set up your Vagrant local machine:
 
 6. After Vagrant is done setting up the machines, you should have a Target Machine and an Attacker Machine in your VirtualBox Manager window. Both should now be launched.
 
-    ![Attacker and Target Machines in VirtualBox](./Target_Attacker_Machines.png)
+    ![Attacker and Target Machines in VirtualBox](/Images/Target_Attacker_Machines.png)
 
 - You'll be using the Attacker Machine to remotely access the Target machine. The Attacker Machine window should automatically pop up once it's ready:
 
-    ![Attacker Machine Window](./Attacker_Machine.png)
+    ![Attacker Machine Window](/Images/Attacker_Machine.png)
 
 #### Access Setup 
 
