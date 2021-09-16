@@ -10,22 +10,23 @@ Save and submit the completed file for your homework submission.
     - `Your solution command here` - **_`useradd -rMo -u 600 sysd`_**
 
 2. Give your secret user a password: 
-    - `Your solution command here`
+    - `Your solution command here` - **_`passwd sysd`_**
 
 3. Give your secret user a system UID < 1000:
-    - `Your solution command here`
+    - `Your solution command here` - **_`usermod -u 600 sysd`_**
 
 4. Give your secret user the same GID:
-   - `Your solution command here`
+   - `Your solution command here` - **_`groupmod -g 600 sysd`_**  
+   ![System_ID](/Images/sysd.png)
 
 5. Give your secret user full `sudo` access without the need for a password:
-   -  `Your solution command here`
+   -  `Your solution command here` - **_`visudo sysd ALL=(ALL:ALL) NOPASSWD:ALL`_**
+
 
 6. Test that `sudo` access works without your password:
 
-    ```bash
-    Your bash commands here
-    ```
+   - `Your bash commands here` - **_`cat /etc/sudoers | grep -i sysd | awk '{ print $3 }'`_**  
+    ![Root_Access](/Images/sysd-1.png)
 
 **Step 2: Smooth Sailing**
 
