@@ -194,3 +194,12 @@ These steps are optional. Complete them if you want to remove the homework-speci
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+## Week 6 Homework Solution: Advanced Bash - Owning the System
+
+Refer to the following solution files for the homework worksheets: 
+
+* [Week 6 Homework Solution: Advanced Bash - Owning the System](/Week 6 Homework Submission File_ Advanced Bash - Owning the System.md)  
+
+---
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
