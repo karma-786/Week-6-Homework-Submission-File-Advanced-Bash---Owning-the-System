@@ -199,7 +199,7 @@ These steps are optional. Complete them if you want to remove the homework-speci
 
 Refer to the following solution files for the homework worksheets: 
 
-* [Week 6 Homework Solution: Advanced Bash - Owning the System](/Week 6 Homework Submission File_ Advanced Bash - Owning the System.md)  
+* [Week 6 Homework Solution: Advanced Bash - Owning the System](https://github.com/karma-786/Week-6-Homework-Submission-File-Advanced-Bash---Owning-the-System/blob/main/Week%206%20Homework%20Submission%20File_%20Advanced%20Bash%20-%20Owning%20the%20System.md)  
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
