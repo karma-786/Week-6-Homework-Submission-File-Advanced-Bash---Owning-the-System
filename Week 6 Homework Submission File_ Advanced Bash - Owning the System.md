@@ -32,32 +32,44 @@ Save and submit the completed file for your homework submission.
 
 1. Edit the `sshd_config` file:
 
-    ```bash
-    Your bash commands here
-    ```
-
+    `Your bash commands here` - **_`sudo nano /etc/ssh/sshd_config`_**
+    
 **Step 3: Testing Your Configuration Update**
 1. Restart the SSH service:
-    - `Your solution command here`
+    - `Your solution command here` - systemctl restart ssh.service
 
 2. Exit the `root` account:
-    - `Your solution command here`
+    - `Your solution command here` - exit  
 
 3. SSH to the target machine using your `sysd` account and port `2222`:
-    - `Your solution command here`
+    - `Your solution command here` - ssh sysd@192.168.6.105 -p 2222
 
 4. Use `sudo` to switch to the root user:
-    - `Your solution command here`
+    - `Your solution command here` - sudo su
 
 **Step 4: Crack All the Passwords**
 
 1. SSH back to the system using your `sysd` account and port `2222`:
 
-    - `Your solution command here`
+    - `Your solution command here` -  ssh sysd@192.168.6.105 -p 2222
 
-2. Escalate your privileges to the `root` user. Use John to crack the entire `/etc/shadow` file:
+2. Escalate your privileges to the `root` user. Use John to crack the entire `/etc/shadow` file:  
+                **_unshadow /etc/passwd /etc/shadow > passwords.txt_** 
 
-    - `Your solution command here`
+    - `Your solution command here` - john passwords.txt
+    ```
+    Loaded 8 password hashes with 8 different salts (crypt, generic crypt(3) [?/64])
+    
+    Press 'q' or Ctrl-C to abort, almost any other key for status  
+    computer	(stallman)  
+    freedom	(babbage)  
+    trustno1	(mitnik)  
+    dragon	(lovelace)  
+    lakers		(turing)  
+    passw0rd	(sysadmin)  
+    Goodluck!	(student)  
+    p4ssw0rd	(sysd)
+    ```  
 
 ---
 
