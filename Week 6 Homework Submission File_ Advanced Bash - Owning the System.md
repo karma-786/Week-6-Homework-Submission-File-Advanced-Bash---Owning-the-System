@@ -36,27 +36,27 @@ Save and submit the completed file for your homework submission.
     
 **Step 3: Testing Your Configuration Update**
 1. Restart the SSH service:
-    - `Your solution command here` - systemctl restart ssh.service
+    - `Your solution command here` - **_`systemctl restart ssh.service`_**  
 
 2. Exit the `root` account:
-    - `Your solution command here` - exit  
+    - `Your solution command here` - **_`exit`_**  
 
 3. SSH to the target machine using your `sysd` account and port `2222`:
-    - `Your solution command here` - ssh sysd@192.168.6.105 -p 2222
+    - `Your solution command here` - **_`ssh sysd@192.168.6.105 -p 2222`_**  
 
-4. Use `sudo` to switch to the root user:
-    - `Your solution command here` - sudo su
+4. Use `sudo` to switch to the root user:  
+    - `Your solution command here` - **_`sudo su`_**  
 
 **Step 4: Crack All the Passwords**
 
 1. SSH back to the system using your `sysd` account and port `2222`:
 
-    - `Your solution command here` -  ssh sysd@192.168.6.105 -p 2222
+    - `Your solution command here` -  **_`ssh sysd@192.168.6.105 -p 2222`_**  
 
 2. Escalate your privileges to the `root` user. Use John to crack the entire `/etc/shadow` file:  
                 **_unshadow /etc/passwd /etc/shadow > passwords.txt_** 
 
-    - `Your solution command here` - john passwords.txt
+    - `Your solution command here` - **_`john passwords.txt`_**
     ```
     Loaded 8 password hashes with 8 different salts (crypt, generic crypt(3) [?/64])
     
